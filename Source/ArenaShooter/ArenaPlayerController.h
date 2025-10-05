@@ -14,6 +14,8 @@ class ARENASHOOTER_API AArenaPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	AArenaPlayerController();
+	virtual void BeginPlay() override;
 	virtual void PlayerTick(float DeltaTime) override;
+
 	
 };

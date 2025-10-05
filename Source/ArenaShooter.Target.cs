@@ -9,7 +9,7 @@ public class ArenaShooterTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
-
+		AdditionalPlugins.AddRange(new string[] { "EnhancedInput" });
 		ExtraModuleNames.AddRange( new string[] { "ArenaShooter" } );
 	}
 }
